@@ -33,6 +33,7 @@ Bonus points if you can use a virtual environment:
 
 Including these packages will allow you to convert Cedar's templates into RDF/XML or TTL:
 
-[lxml](https://pypi.org/project/lxml/)
+pip install
+[lxml](https://pypi.org/project/lxml/) 
 [rdflib](https://pyyi.org/project/rdflib/)
 [rdflib-jsonld](https://pypi.org/project/rdflib-jsonld/)
