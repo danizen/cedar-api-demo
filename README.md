@@ -1,16 +1,14 @@
 # cedar-api-demo
 Demonstrate use of the Cedar API developed by https://metadatacenter.org/
 
-[CedarApiDemo.ipynb]
-
 ## API Key
 
 The Cedar API requires an API, which you get by creating an account at https://cedar.metadatacenter.org/.
 Once you have logged-in, navigate to your profile, and copy the value of the API keyand save it in a file
 called ".cedarkey" in your home directory:
 
-* Linux/MacOS - $HOME/.cedarkey
-* Windows users - %USERPROFILE%/.cedarkey
+* Linux/MacOS - `$HOME/.cedarkey`
+* Windows users - `%USERPROFILE%/.cedarkey`
 
 __NOTE:__ You may also have to adjust the line that gets the cedarkeypath to use the USERPROFILE variable.
 
@@ -38,5 +36,3 @@ Including these packages will allow you to convert Cedar's templates into RDF/XM
 [lxml](https://pypi.org/project/lxml/)
 [rdflib](https://pyyi.org/project/rdflib/)
 [rdflib-jsonld](https://pypi.org/project/rdflib-jsonld/)
-
-
